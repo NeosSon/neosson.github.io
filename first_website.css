@@ -1,0 +1,37 @@
+ /*could of also done p.onlycss*/
+ * {
+    box-sizing: border-box;
+ }
+ #css-section p {
+    color: rgb(245, 245, 245);
+    background-color:black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+nav ul {
+    display: inline-block;
+    background-color: darkgreen;
+    text-align: center;
+    position:relative;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    right: 50%;
+
+}
+nav li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    
+}
+nav a:hover {
+    color:black;
+}
+nav a {
+    color: azure;
+}
